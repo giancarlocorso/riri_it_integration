@@ -24,7 +24,7 @@
 </head>
 <body class="w3-black">
 
-<!-- Navigation bar with social media icons -->
+<!-- START - Navigation bar with icons -->
 <div class="w3-bar w3-white  w3-hide-small">
  <!--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-facebook-official"></i></a>
   <!--<a href="#" class="w3-bar-item w3-button"><i class="fa fa-instagram"></i></a>-->
@@ -34,19 +34,79 @@
   <!-- <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a>-->
   <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
 </div>
+<!-- END - Navigation bar with icons -->
   
-<!-- w3-content defines a container for fixed size centered content, 
-and is wrapped around the whole page content, except for the footer in this example -->
- <!-- <div class="w3-content" style="max-width:1600px">-->
-
-  <!-- Header -->
+<!-- START - Header -->
   <header class="w3-container w3-black w3-center w3-padding-48 w3-white">
     <h1 class="w3-xxxlarge" style="color: #FFFFFF"><b>RIRI IT INTEGRATION PROJECT <br>MFA SETUP</b></h1>
   </header>
 
-  <!-- Grid -->
-  <div class="w3-content" style="max-width:1600px; width: 100% ">
-    <!-- Blog entries -->
+<!-- Grid -->
+<div class="w3-content" style="max-width:1600px; width: 100% ">
+    
+ <!-- START - INFORMAZIONI UTILI  -->
+    <div class="w3-container w3-white w3-margin w3-padding-large">
+        <div class="w3-center">
+          <h2>INFORMAZIONI UTILI</h2>
+        </div>
+
+        <div class="w3-justify">
+          
+         <ul class="a">
+            <li><strong>Di cosa si tratta?</strong> Il MFA è un metodo di autenticazione che richiede ad un utente di fornire almeno due fattori di verifica per poter accedere a risorse quali posta elettronica e servizi Microsoft aziendali(es. Outlook, Teams)</li>
+            <li><strong>Come funziona?</strong> Nel caso si verifichi un tentativo di accesso al tuo nuovo ambiente di lavoro digitale Oerlikon ritenuto anomalo, poiché proveniente da un paese a rischio, o dalle caratteristiche diverse dall’utilizzo abituale, verrà notificato sul tuo dispositivo mobile (smartphone) il tentativo di accesso e richiesta l'approvazione della tua identità. Ricordiamo che questo è uno strumento di salvaguardia della tua identità. Grazie all’applicazione mobile Microsoft Authenticator potrai quindi gestire e confermare l'accesso alle tue applicazioni Microsoft mediante uno smartphone.</li>
+            <li><strong>Come attivare il MFA?</strong> La configurazione è molto semplice e può essere effettuata in autonomia senza il supporto IT seguendo le video guida Android o Apple che trovi riportate in calce.</li>
+            <li><strong>Perché?</strong> Il tuo profilo IT (es. casella mail e strumenti di collaborazione tra i quali Teams e suite Microsoft Office) verrà migrato nell'ecosistema digitale Oerlikon che richiede degli standard di sicurezza elevati</li>
+            <li><strong>Dove?</strong> L’applicazione Microsoft Authenticator va installata nel tuo dispositivo mobile (smartphone)</li>
+            <li><strong>Quando procedere con il setup del MFA?</strong> Qualche giorno prima delle date riportate in tabella sotto e come indicato nelle video guide, ti invitiamo a provvedere al download dell'applicazione dallo store del tuo smartphone.Le tue nuove credenziali Oerlikon (nome utente e password) ti verranno comunicate qualche giorno prima della data di migrazione del tuo account RRII di posta e collaborazione (Teams..). </li>
+            <li><strong>Come il MFA impatterà nella tua quotidianità?</strong> Grazie agli algoritmi di Microsoft che riconoscono il tuo comportamento (es. accessi dalla stessa località geografica), la frequenza di richiesta dell’approvazione a due fattori sarà molto bassa.</li>
+          </ul>
+
+          <div class="w3-center">
+              <h2>PIANO DI MIGRAZIONE</h2>
+          </div>
+
+          <table id="customers" style="  margin: 0 auto;">
+              <tr>
+                <th>Sito</th>
+                <th>Data migrazione</th>
+                 </tr>
+              <tr>
+                <td>AMOM</td>
+                <td>20-21 Novembre 2023</td>
+                
+              </tr>
+              <tr>
+                <td>DMC</td>
+                <td>22-23 Novembre 2023</td>
+              
+              </tr>
+              <tr>
+                <td>SPM Palazzolo</td>
+                <td>27-28 Novembre 2023</td>
+              
+              </tr>
+              <tr>
+                <td>Cobrax Padova</td>
+                <td>29-30 Novembre 2023</td>
+                
+              </tr>
+              <tr>
+                <td>Tirano</td>
+                <td>29-30 Novembre 2023</td>
+              
+              </tr>
+              <tr>
+                <td>Mendrisio</td>
+                <td>06-07 Dicembre 2023</td>      
+              </tr>
+          <table>
+
+      <HR>
+    </div>
+  </div>
+
+<!-- START - VIDEO GUIDES -->
     <div class="w3-container w3-center  w3-white">
       <!-- Blog entry -->
       <div class="w3-container w3-white w3-margin w3-padding-large">
@@ -68,94 +128,6 @@ and is wrapped around the whole page content, except for the footer in this exam
         </div>
       </div>
     </div> 
-
-      <!-- Blog entry -->
-      <div class="w3-container w3-white w3-margin w3-padding-large">
-        <div class="w3-center">
-          <h2>INFORMAZIONI UTILI</h2>
-        </div>
-
-        <div class="w3-justify">
-          
-         <ul class="a">
-            <li><strong>Di cosa si tratta?</strong> Il MFA è un metodo di autenticazione che richiede ad un utente di fornire almeno due fattori di verifica per poter accedere a risorse quali posta elettronica e servizi Microsoft aziendali(es. Outlook, Teams)</li>
-            <li><strong>Come funziona?</strong> Nel caso si verifichi un tentativo di accesso al tuo nuovo ambiente di lavoro digitale Oerlikon ritenuto anomalo, poiché proveniente da un paese a rischio, o dalle caratteristiche diverse dall’utilizzo abituale, verrà notificato sul tuo dispositivo mobile (smartphone) il tentativo di accesso e richiesta l'approvazione della tua identità. Ricordiamo che questo è uno strumento di salvaguardia della tua identità. Grazie all’applicazione mobile Microsoft Authenticator potrai quindi gestire e confermare l'accesso alle tue applicazioni Microsoft mediante uno smartphone.</li>
-            <li><strong>Come attivare il MFA?</strong> La configurazione è molto semplice e può essere effettuata in autonomia senza il supporto IT seguendo le video guida Android o Apple che trovi riportate in calce.</li>
-            <li><strong>Perché?</strong> Il tuo profilo IT (es. casella mail e strumenti di collaborazione tra i quali Teams e suite Microsoft Office) verrà migrato nell'ecosistema digitale Oerlikon che richiede degli standard di sicurezza elevati</li>
-            <li><strong>Dove?</strong> L’applicazione Microsoft Authenticator va installata nel tuo dispositivo mobile (smartphone)</li>
-            <li><strong>Quando procedere con il setup del MFA?</strong> Al ricevimento di questa mail, prima delle date riportate in tabella sotto e come indicato nella video guida sotto riportata ti invitiamo a provvedere al download dell'applicazione dallo store del tuo smartphone.Le tue nuove credenziali Oerlikon (nome utente e password) ti verranno comunicate qualche giorno prima della data di migrazione del tuo account RRII di posta e collaborazione (Teams..). </li>
-            <li><strong>Come il MFA impatterà nella tua quotidianità?</strong> Grazie agli algoritmi di Microsoft che riconoscono il tuo comportamento (es. accessi dalla stessa località geografica), la frequenza di richiesta dell’approvazione a due fattori sarà molto bassa.</li>
-          </ul>
-
-         <div class="w3-center">
-          <h2>PIANO DI MIGRAZIONE</h2>
-       </div>
-
- 
-    <table id="customers" style="  margin: 0 auto;">
-      <tr>
-        <th>Sito</th>
-        <th>Data migrazione</th>
-         </tr>
-      <tr>
-        <td>AMOM</td>
-        <td>20-21 Novembre 2023</td>
-        
-      </tr>
-      <tr>
-        <td>DMC</td>
-        <td>22-23 Novembre 2023</td>
-      
-      </tr>
-      <tr>
-        <td>SPM Palazzolo</td>
-        <td>27-28 Novembre 2023</td>
-      
-      </tr>
-      <tr>
-        <td>Cobrax Padova</td>
-        <td>29-30 Novembre 2023</td>
-        
-      </tr>
-      <tr>
-        <td>Tirano</td>
-        <td>29-30 Novembre 2023</td>
-      
-      </tr>
-      <tr>
-        <td>Mendrisio</td>
-        <td>06-07 Dicembre 2023</td>
-        
-      </tr>
-      <table>
-
-<HR>
-
-          <!-- Example of comment field -->
-          <div id="demo2" style="display:none">
-            <div class="w3-row">
-              <hr>
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl_train.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Amber <span class="w3-opacity w3-medium">April 26, 2015, 10:52 PM</span></h4>
-                <p>Love your blog page! Simply the best! Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p><br>
-              </div>
-            </div>
-            <div class="w3-row w3-margin-bottom">
-              <div class="w3-col l2 m3">
-                <img src="/w3images/girl.jpg" style="width:90px;">
-              </div>
-              <div class="w3-col l10 m9">
-                <h4>Angie <span class="w3-opacity w3-medium">April 23, 2015, 9:12 PM</span></h4>
-                <p>Love hats!!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
 
 <!-- Footer -->
 <footer class="w3-black " style="padding:10px">
